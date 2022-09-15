@@ -12,7 +12,7 @@ namespace BooksCatalogue.Controllers
 {
     public class ReviewController : Controller
     {
-        private string apiEndpoint = "http://localhost:8000/api/review/";
+        private string apiEndpoint = "https://subms-azure-sapta-api.azurewebsites.net/api/review/";
         private readonly HttpClient _client;
         HttpClientHandler clientHandler = new HttpClientHandler();
 
